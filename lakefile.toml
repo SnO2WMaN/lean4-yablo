@@ -1,0 +1,11 @@
+name = "yablo"
+version = "0.1.0"
+defaultTargets = ["Yablo"]
+
+[[lean_lib]]
+name = "Yablo"
+ 
+[[require]]
+scope = "leanprover-community"
+name = "mathlib"
+rev = "v4.22.0-rc4"
